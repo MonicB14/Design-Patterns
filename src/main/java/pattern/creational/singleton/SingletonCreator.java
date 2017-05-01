@@ -31,7 +31,7 @@ public class SingletonCreator {
 	 *{@code static} inner class to help in creation of SingletonCreator object.
 	 */
 	static class SingletonMaker{
-		private static SingletonCreator INSTANCE = new SingletonCreator();		
+		private static final SingletonCreator INSTANCE = new SingletonCreator();		
 	}
 	
 }
